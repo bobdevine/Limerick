@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Limerick Generator">
+    <meta name="keywords" content="poem, limerick">
+    <title>Limerick</title>
+
+    <link href="data:image/png;base64,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" rel="icon" type="image/x-icon" />
+
+
+<style type="text/css">
+  body {
+  background-color: #93B874;
+  }
+  .limerickbox {
+      margin-top: 45px;
+      width: 75%;
+      background: #C8F2EA;
+      border: 3px solid #cccccc;
+      padding: 5px;
+  }
+  .genbutton {
+      display: inline-block;
+      padding: 12px 18px;
+      cursor: pointer;
+      border-radius: 7px;
+      background-color: #e7e7e7;
+      border: 2px solid #008CBA;
+      font-size: 18px;
+      font-weight: bold;
+      color: black;
+  }
+  .genbutton:hover {
+      background-color: #4CAF50;
+      color: #fff;
+  }
+</style>
+
+<script type="text/javascript" src="dict_names.js"></script>
+<script type="text/javascript" src="dict_nouns.js"></script>
+<script type="text/javascript" src="dict_rhymes.js"></script>
+<script type="text/javascript" src="syllable.js"></script>
+<script type="text/javascript" src="genlimerick.js"></script>
+
+
+<script type="text/javascript">
+  if (typeof LimerickGenerator == 'undefined') {
+      alert("error with limerickgen.js");
+  }
+  var LG = new LimerickGenerator();
+
+  function generate() {
+      //alert("Gen");
+      var box = document.getElementById('limerickbox');
+      //box.style.visibility = 'visible';
+      //alert(box.value);
+      LG.generateLimerick();
+      box.innerHTML = LG.line1 + "<br>" + LG.line2 + "<br>" + LG.line3 + "<br>" + LG.line4 + "<br>" + LG.line5;
+  }
+</script>
+
+</head>
+  
+<body>
+    <br clear="both">
+    <center>
+      <i style="font-size:300%; font-weight:bold;">Generate a limerick</i>
+      <br clear="both">
+      <p>
+	<i style="font-weight:bold;">
+	  Random silliness...
+	</i>
+      </p>
+    </center>
+
+    <br clear="both">
+
+    <div class="limerickbox">
+      <p id="limerickbox" style="font-size:16px; text-align:left;"> </p>
+    </div>
+    <br clear="both">
+    <div align="center" style="margin-top: 45px;">
+      <input type="button" class="genbutton" value="Make a limerick" onclick="generate();">
+    </div>
+
+</body>
+</html>
